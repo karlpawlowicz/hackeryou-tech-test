@@ -1,0 +1,15 @@
+// Static styles
+@import '../components/Header/header.scss';
+@import '../components/Footer/footer.scss';
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  color: $black;
+  font: 19px 'Roboto', sans-serif;
+  font-weight: 400;
+}
